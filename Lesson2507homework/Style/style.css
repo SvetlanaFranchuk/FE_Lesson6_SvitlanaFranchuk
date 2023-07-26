@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.task1, .task2, .task3, .task4, .task5, .task6 {
+    width: 100%;
+    height: 120px;
+    border: 2px solid brown;
+    padding: 20px 40px;
+    position: relative;
+    margin: 0 0 5px;
+}
+
+.squareRed,  .squareBlue,  .squareGreen,
+.squareRed2, .squareBlue2, .squareGreen2,
+.squareRed3, .squareBlue3, .squareGreen3,
+.squareRed4, .squareBlue4, .squareGreen4,
+.squareRed5, .squareBlue5, .squareGreen5,
+.squareRed6, .squareBlue6, .squareGreen6
+{
+height: 40px;
+width: 40px;
+position: absolute;
+}
+
+.squareRed{
+    border: 1px solid red;
+}
+
+.squareBlue{
+    border: 1px solid blue;
+    top: 20px;
+    left: 100px;
+}
+
+.squareGreen{
+    border: 1px solid green;
+    top: 20px;
+    left: 160px;
+}
+
+.squareRed2{
+    border: 1px solid red;
+}
+
+.squareBlue2{
+    border: 1px solid blue;
+    top: 45px;
+    left: 65px;
+    z-index: 2;
+}
+
+.squareGreen2{
+    border: 1px solid green;
+    top: 70px;
+    left: 90px;
+}
+
+.squareRed3{
+    background-color: red;
+}
+
+.squareBlue3{
+    background-color: blue;
+    top: 45px;
+    left: 65px;
+}
+
+.squareGreen3{
+    background-color: green;
+    top: 70px;
+    left: 90px;
+}
+
+.squareRed4{
+    background-color: red;
+}
+
+.squareBlue4{
+    background-color: blue;
+    top: 45px;
+    left: 65px;
+    z-index: 2;
+}
+
+.squareGreen4{
+    background-color: green;
+    top: 70px;
+    left: 90px;
+}
+
+.squareRed5{
+    background-color: red;
+    z-index: 2;
+}
+
+.squareBlue5{
+    background-color: blue;
+    top: 45px;
+    left: 65px;
+}
+
+.squareGreen5{
+    background-color: green;
+    top: 70px;
+    left: 90px;
+}
+
+.squareRed6{
+    background-color: red;
+    z-index: 3;
+}
+
+.squareBlue6{
+    background-color: blue;
+    top: 45px;
+    left: 65px;
+    z-index: 2;
+}
+
+.squareGreen6{
+    background-color: green;
+    top: 70px;
+    left: 90px;
+}

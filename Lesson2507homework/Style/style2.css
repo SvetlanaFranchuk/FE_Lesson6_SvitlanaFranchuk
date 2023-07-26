@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.task1, .task2, .task3{
+    width: 100%;
+    height: 225px;
+    border: 2px solid gray;
+    margin: 0 0 10px;
+}
+
+.blockOutside{
+width: 90px;
+height: 200px;
+margin: 10px auto;
+border: 1px solid black;
+position: relative;
+}
+
+.circle1, .circle2, .circle3{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+}
+
+.circle1{
+    background-color: red;
+    top: 10px;
+    left: 20px;
+}
+
+.circle2{
+    background-color: yellow;
+    top: 70px;
+    left: 20px;
+}
+
+.circle3{
+    background-color: green;
+    top: 130px;
+    left: 20px;
+}
+
+.circleFace{
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    border-radius: 250px;
+    position: relative;  
+    background-color: aquamarine; 
+}
+
+.circleEye1, .circleEye2,
+.circleEye13, .circleEye23{
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 25px;
+  position: absolute;  
+}
+
+.circleEye1{
+    left: 30px;
+    top: 50px;
+}
+
+.circleEye2{
+    left: 130px;
+    top: 50px;
+}
+
+.nose{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute; 
+    top: 100px;
+    left: 93px;   
+}
+
+.mouth{
+    width: 100px;
+    height: 10px;
+    background-color: white;
+    position: absolute; 
+    top: 145px;
+    left: 52px;   
+}
+
+.circleFace3{
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    border-radius: 250px;
+    position: relative;  
+    background-color:khaki;
+    z-index: 3; 
+}
+
+.circleEye13{
+    left: 30px;
+    top: 50px;
+    z-index: 2;
+}
+
+.circleEye23{
+    left: 130px;
+    top: 50px;
+    z-index: 2;
+}
+
+.nose3{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    border-radius: 25px; 
+    top: 100px;
+    left: 85px;   
+    z-index: 3; 
+}
+
+.smile2{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50px; 
+    top: 70px;
+    left: 52px; 
+}
+
+.smile3{
+    width: 140px;
+    height: 140px;
+    background-color: khaki;
+    position: absolute;
+    border-radius: 70px; 
+    top: 20px;
+    left: 32px; 
+}
